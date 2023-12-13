@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Noto Nastaliq Urdu';
+    src: url('fonts/notonastaliqurdu-webfont.woff2') format('woff2'),
+         url('fonts/notonastaliqurdu-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Noto Nastaliq Urdu', 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+    line-height: 1.6; /* Adjust line height for better readability */
+  }
+  .hd1{
+    text-decoration: underline;
+
+  }
+
+  header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  article {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Center-align text in articles */
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #2980b9;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .button-container a:hover {
+    background-color: #2980b9;
+  }
+  
